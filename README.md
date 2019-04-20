@@ -1,10 +1,10 @@
-Linode Qouta Monitor
+Linode Quota Monitor
 --------------------
 
 Monitor your Linode network transfer pool, and shutdown if threshold exceeds limit
 
 ```
-usage: linode_qouta_monitor.py [-h] [-t THRESHOLD] [linode_id]
+usage: linode_quota_monitor.py [-h] [-t THRESHOLD] [linode_id]
 
 positional arguments:
   linode_id             the ID of the Linode to shutdown
@@ -15,8 +15,8 @@ optional arguments:
                         threshold percentage
 
 examples:
-        ./linode_qouta_monitor.py 12345678
-        ./linode_qouta_monitor.py 12345678 -t 90
+        ./linode_quota_monitor.py 12345678
+        ./linode_quota_monitor.py 12345678 -t 90
 ```
 
 #### Sample Output
