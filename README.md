@@ -1,4 +1,4 @@
-linode_qouta_monitor
+Linode Qouta Monitor
 --------------------
 
 Monitor your Linode network transfer pool, and shutdown if threshold exceeds limit
